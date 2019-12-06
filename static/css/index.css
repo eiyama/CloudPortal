@@ -1,0 +1,536 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+img {
+    margin: 0;
+    padding: 0;
+}
+html{background:#ffffff !important;}
+
+body {
+    color: #333;
+    font-size: 14px;
+    font-family: 'PingFangSC-Regular'!important;
+    background: #ffffff!important;
+}
+
+img {
+    border: none;
+}
+
+em,
+i,
+b,
+strong {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1px;
+}
+
+#root .el-container .el-header {
+    width: 100%;
+    min-width: 1200px;
+    height: 80px !important;
+    background-color: #242529;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    line-height: 80px !important;
+}
+
+#root .el-container .el-main {
+    width: 100%;
+    min-width: 1200px;
+    background-color: #FBFBFB;
+    min-height: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+#root .el-container .el-footer {
+    background: #ffffff !important;
+    min-width: 1200px;
+    width: 100%;
+    height: 84px !important;
+    background: #FBFBFC;
+    margin: 0;
+    padding: 0;
+    padding-top: 38px;
+    color: #B0B9CD;
+    margin-top: 30px!important;
+    text-align: center;
+    line-height: 20px;
+    
+}
+/*
+#root .el-container .di{
+height:200px!important;
+}
+*/
+#root .el-container .di .el-footer {
+    left: 0;
+    padding: 0;
+    bottom: 0;
+    height: 54px !important;
+    margin-top: 18px!important;
+}
+
+#root .el-container .el-footer ul {
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 38px;
+    margin-bottom: 10px;
+}
+
+#root .el-container .el-footer ul li a {
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #757E97;
+    color: #757E97;
+    height: 14px;
+    line-height: 14px;
+}
+
+#root .el-container .el-footer ul li:last-child a {
+    border: none;
+    padding-right: 0;
+}
+
+#root .main {
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 680px !important;
+}
+.maincc{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head-left {
+    float: left;
+}
+
+.head-left img {
+    float: left;
+}
+
+.head-left h2 {
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 12px;
+}
+
+.head-right {
+    float: right;
+}
+
+.head-right ul li {
+    float: left;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.head-right ul li a {
+    color: #FFFFFF;
+}
+
+.head-right .head-last span {
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 7px 18px;
+}
+
+/*登陆*/
+.home .el-input__inner {
+    width: 246px !important;
+    height: 40px !important;
+    color: #333;
+    border-radius: 4px;
+    padding: 0 39px;
+	margin-bottom:2px;
+    
+}
+.home .el-form-item__content{
+	margin-bottom:8px;
+}
+.home .el-button {
+    width: 246px;
+    height: 40px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.home .el-button:hover{
+	opacity:0.9 !important;
+}
+.page {
+    margin-left: 206px;
+    padding-left: 42px;
+    background:#ffffff;
+    min-height: 680px!important;
+}
+
+.foundapp {
+    min-height: 660px!important;
+}
+
+
+/*中间mian*/
+
+.mainone {
+    width: 100%;
+    background: #f5f5f5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.mainone .el-footer {
+    padding: 0!important;
+    margin: 0 !important;
+    padding-bottom:20px!important;
+    padding-top:30px !important;
+}
+#root .el-container .mainone  .el-footer{
+	height:92px!important;
+}
+
+.mainone.el-main {
+    min-height: 680px;
+}
+
+.mainone .el-container {
+    min-height: 680px !important;
+}
+
+.mainone .el-aside {
+    background: #FBFBFB;
+    width: 206px !important;
+    margin-top: 30px;
+}
+
+.mainone .el-main {
+    min-height: 680px !important;
+    ;
+    ;
+    background: #FFFFFF;
+    margin-top: 30px !important;
+}
+
+.mainone .el-tabs--left .el-tabs__item.is-left {
+    text-align: center;
+    width: 206px;
+}
+
+.mainone .el-tabs__nav {
+    height: 100%;
+    background: #FBFBFB;
+    margin-top: 87px;
+}
+
+.mainone .el-tabs__item {
+    color: #757E97;
+    height: 50px;
+    line-height: 50px;
+}
+
+.mainone .el-tabs__item.is-active {
+    color: #323C4D;
+    background: #FFFFFF;
+}
+
+.mainone .el-form-item.is-required .el-form-item__label:before {
+    content: '';
+}
+.detail .el-form-item.is-required .el-form-item__label:before {
+    content: '';
+    display:none;
+}
+.mainone .usecontrol .el-form-item.is-required .el-form-item__label:before{
+	content: "*";
+    color: #f56c6c;
+    margin-right: 4px;
+}
+.mainone .rout {
+    margin-top: 28px;
+    width: 206px;
+    float: left;
+}
+
+.mainone .router {
+    color: #757E97;
+    height: 50px;
+    line-height: 50px;
+    border-left: 2px solid #FBFBFB;
+    background: #FBFBFB;
+    width: 206px;
+    text-align: center;
+}
+
+.tab.router-link-active .router {
+    color: #0089dc;
+    background: #FFFFFF;
+    border-left: 2px solid #0070D3;
+}
+
+.fanhui {
+    cursor: pointer;
+    line-height: 41px;
+    padding-top: 28px;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 22px;
+    color: #323C4D;
+    line-height: 41px;
+    padding-top: 28px;
+    font-weight: normal;
+    margin-bottom: 22px;
+}
+
+
+/*用户个人账号*/
+
+.home {
+    width: 100%;
+    height: 860px;
+    background-image: url(../images/imageone.jpg);
+    background-position:68% 200%;
+}
+
+.el-form-item .is-success .is-required {
+    height: 50px !important;
+}
+
+.personal .el-form.demo-ruleForm {
+    width: 900px;
+}
+
+.el-form-item__label {
+    color: #757E97 !important;
+    letter-spacing: 0;
+    width: 96px !important;
+    text-align: left !important;
+}
+.el-input__inner {
+    width: 300px !important;
+    height: 32px !important;  
+}
+/*input样式颜色*/
+.el-form-item.is-success .el-input__inner, .el-form-item.is-success .el-textarea__inner, .el-form-item.is-success .el-textarea__inner:focus {
+    border-color: #B0B9CD;
+}
+
+.manage {
+    min-height: 680px!important;
+}
+.demo-form-inline{
+    margin-top: 20px;
+}
+.manage .demo-form-inline .el-input__inner {
+    width: 130px !important;
+    height: 30px!important;
+}
+
+.manage .inlinethree .el-form-item__label {
+    width: 72px !important;
+    text-align: right !important;
+}
+
+.manage .inlineone .el-form-item__label {
+    width: 52px !important;
+    text-align: right !important;
+}
+
+.manage .inlinetwo .el-form-item__label {
+    width: 62px !important;
+    text-align: right !important;
+}
+
+.manage .inlinefour .el-form-item__label {
+    width: 48px !important;
+    text-align: right !important;
+}
+
+.manage .onSubmits .el-button {
+    width: 96px;
+}
+
+.personal .el-input__inner:nth-child(6) {
+    width: 120px !important;
+}
+
+.personal .el-input {
+    height: 32px;
+}
+
+.personal .el-button--primary {
+    width: 100px;
+    transform: translateX(-94px);
+}
+
+.detail {
+    padding-left: 42px;
+}
+
+.detail .el-input__inner {
+    width: 300px;
+    height: 32px;
+}
+.el-color-dropdown__btns .el-input__inner{width:180px !important;}     
+
+.detail .weiji .tao .el-input__inner {
+    width: 80px !important;
+}
+
+.detail .el-form-item__label {
+    color: #757E97;
+    letter-spacing: 0;
+    text-align: left;
+    width: 124px !important;
+    padding: 0;
+}
+.detail .content .el-form-item__label{width: 96px !important;}
+
+.detail .el-table td {
+    padding: 0!important;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+}
+
+.detail .el-table th {
+    padding: 0!important;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+}
+
+.el-table::before {
+    z-index: 0!important;
+}
+
+
+/*应用管理*/
+ 
+.file {
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 44px;
+    overflow: hidden;
+    text-decoration: none;
+    text-indent: 0; 
+    line-height: 20px;
+    color: #fff;  
+}
+
+.concenterone .file {
+    margin-top: 40px;
+}
+
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.file:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*弹框*/
+
+.el-dialog {
+    position: relative;
+}
+
+
+/*退出登陆*/
+
+.el-dropdown-menu__item {
+    width: 60px !important;
+    height: 35px !important;
+    padding: 0 15px !important;
+}
+
+[v-cloak] {display: none !important;}
+.el-table__empty-block{display: none !important;}
+.el-table_2_column_7{max-height: 71px !important;}
+.el-table th>.cell{color:#18243A;font-size: 14px;font-weight: normal;}
+.detail .el-table th>.cell{color:#757E97;font-size: 12px;font-weight: normal;}
+.el-table th{background:#F5F7F9}
+.v-modal {z-index: 0 !important;background:#f5f5f5;}
+.usecontrol  .el-icon-close:before {content: "" !important;}
+.el-icon-circle-close{margin-right:5px}
+.detail .el-form-item{margin-bottom:5px}
+.detail .viftwo .el-form-item{margin-bottom:12px}
+.detail .firstones .el-form-item:first-child{height:40px!important;}
+.foundapp .el-form-item{margin-bottom:20px}
+.foundapp .demo-ruleForm .el-form-item:first-child{height:40px!important;}
+.el-dialog__header{border-bottom:1px solid #D9DDE7 }
+.detail .el-dialog__body{padding: 15px 20px!important;}
+.el-form-item__error{padding-top:0}
+.usecontrol .el-form-item[data-v-980c78f2] {margin-bottom: 10px !important;margin-left: 50px;}
+.foundapp .el-form-item {margin-bottom: 5px;}
+.el-tooltip__popper{color:rgb(50, 60, 77)}
+.el-tooltip__popper{line-height:18px}
+.el-tooltip__popper.is-light {border: 1px solid #979899;}
+.el-form-item {margin-bottom: 10px;}
+.el-icon-plus{margin-right:5px;margin-left:0;padding-left:0;}
+.el-table td, .el-table th{padding:8px 0;}
+.detail .el-form-item__error{left: 24px;}
+.home .el-form-item__error{left: 14px !important;}
+.detail .viftwo .el-form-item__error{left:0;}
+.manage .content .el-button{width:110px !important;}
+.el-message{top:40%;min-height:60px}
+.home .fontone{height: 180px;}
+.el-message__content{max-width:400px;line-height:20px;}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {background-color: #ffffff!important;color: rgb(0, 0, 0);}
+.el-dialog__wrapper{overflow:hidden;}
+.el-pagination{padding-top:15px;padding-bottom:15px}
+.usecontrol .el-table{width:97% !important;}
+/*防止页面抖动*/
+html {overflow-y: scroll;}  
+:root {overflow-y: auto;overflow-x: auto;}  
+:root body {position: absolute;}
+body {max-width: 100vw;min-width: 100%;} 
+

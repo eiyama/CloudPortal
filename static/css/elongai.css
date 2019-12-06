@@ -1,0 +1,25 @@
+/*易龙配色*/
+.el-form-item.is-success .el-input__inner:focus{border-color: #0070D3;}
+.el-button[type=button]{background:#0070D3;color:#ffffff;}
+.el-button--primary[type=button]{border-color: #0070D3;}
+.el-button[type=button]:hover{background:#0070D3;}
+.el-button[type=button].quxiao{border-color: #0070D3;color:#0070D3;background: #FFFFFF;}
+.el-button[type=button].quxiao:hover{background:#FFFFFF;}
+.fblue{color: #0070D3;}
+.el-icon-question{font-size: 16px;color: #0070D3;line-height: 40px;margin-left: 30px;position: absolute;left: 320px;}
+.el-select-dropdown__item.selected{color: #0070D3;}
+.tab.router-link-active .router {color: #0070D3;border-left: 2px solid #0070D3;}
+.center-left span{color: #0070D3;} 
+.fanhui {color: #0070D3;} 
+.el-pagination.is-background .el-pager li.active {background-color: #0070D3;}
+.el-radio__input.is-checked+.el-radio__label {color: #0070D3;}
+.el-radio__input.is-checked .el-radio__inner{border-color:  #0070D3;background: #0070D3;}
+.el-radio__input.is-checked .el-radio__inner:hover{border-color:  #0070D3;}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {background-color: #0070D3;border-color:#0070D3;}
+.el-checkbox__input.is-checked+.el-checkbox__label{color: #0070D3;}
+.el-step__head.is-finish{color: #0070D3;border-color: #0070D3;}
+.el-step__title.is-finish{color: #0070D3;}
+.file{border: 1px solid #0070D3 !important;background-color: #0070D3 !important;} 
+.file:hover{border: 1px solid #0070D3 !important;background-color: #0070D3 !important;color: #FFFFFF!important;opacity: 0.9;} 
+.usercenter h4{color: #0070D3;}
+.usercenter .userright{color: #0070D3;}

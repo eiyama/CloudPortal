@@ -1,0 +1,25 @@
+/*邦德配色*/
+.el-form-item.is-success .el-input__inner:focus{border-color: #2150A3;}
+.el-button[type=button]{background:#2150A3;color:#ffffff;}
+.el-button--primary[type=button]{border-color: #2150A3;}
+.el-button[type=button]:hover{background:#2150A3;}
+.el-button[type=button].quxiao{border-color: #2150A3;color:#2150A3;background: #FFFFFF;}
+.el-button[type=button].quxiao:hover{background:#FFFFFF;}
+.fblue{color: #2150A3;}
+.el-icon-question{font-size: 16px;color: #2150A3;line-height: 40px;margin-left: 30px;position: absolute;left: 320px;}
+.el-select-dropdown__item.selected{color: #2150A3;}
+.tab.router-link-active .router {color: #2150A3;border-left: 2px solid #2150A3;}
+.center-left span{color: #2150A3;} 
+.fanhui {color: #2150A3;} 
+.el-pagination.is-background .el-pager li.active {background-color: #2150A3;}
+.el-radio__input.is-checked+.el-radio__label {color: #2150A3;}
+.el-radio__input.is-checked .el-radio__inner{border-color:  #2150A3;background: #2150A3;}
+.el-radio__input.is-checked .el-radio__inner:hover{border-color:  #2150A3;}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {background-color: #2150A3;border-color:#2150A3;}
+.el-checkbox__input.is-checked+.el-checkbox__label{color: #2150A3;}
+.el-step__head.is-finish{color: #2150A3;border-color: #2150A3;}
+.el-step__title.is-finish{color: #2150A3;}
+.file{border: 1px solid #2150A3 !important;background-color: #2150A3 !important;} 
+.file:hover{border: 1px solid #2150A3 !important;background-color: #2150A3 !important;color: #FFFFFF !important;opacity: 0.9;} 
+.usercenter h4{color: #2150A3;}
+.usercenter .userright{color: #2150A3;}
